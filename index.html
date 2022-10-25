@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      align-items: center;
+      background-color: hsl(212, 45%, 89%);
+      display: flex;
+      font-family: "Outfit", serif;
+      justify-content: center;
+      height: 100%;
+      min-height: 100vh;
+      overflow: hidden;
+      width: 100%;
+    }
+
+    .qrcode {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 10px 40px hsl(220, 15%, 55%);
+      padding: 4%;
+      top: 75%;
+      text-align: center;
+      width: 375px;
+    }
+
+    img {
+      width: 375px;
+    }
+
+    h1 {
+      color: hsl(218, 44%, 22%);
+      font-weight: 700;
+    }
+
+    p {
+      color: hsl(220, 15%, 55%);
+      font-size: 15px;
+      font-weight: 400;
+      padding: 15px;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+      text-decoration: none;
+    }
+
+    .frontend:hover,
+    .coded:hover {
+      font-weight: bold;
+      size: 2rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <selection class="qrcode">
+    <img class="picture" src="images\image-qr-code.png" alt="image of a qr code" />
+    <h1>Improve your front-end skills by building projects</h1>
+    <p>
+      Scan the QR code to visit Frontend Mentor and take your coding skills
+      to the next level
+    </p>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+        href="https://github.com/HumbleFool830" target="_blank">Humble Fool</a>.
+
+    </div>
+  </selection>
+</body>
+
+</html>
